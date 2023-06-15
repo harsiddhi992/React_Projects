@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.heading {
+  background-color: #b6da99;
+}
+.heading h1 {
+  color: #1e4f5c;
+}
+
+.icon_style {
+  margin: 10px;
+  color: #1e4f5c;
+}
+.create_note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  outline: none;
+  border: 2px solid #69b0c4;
+  border-radius: 10px;
+  background-color: #69b0c4;
+}
+.create_note .input_style {
+  border: 2px solid #69b0c4;
+  border-radius: 5px;
+  outline: none;
+}
+.create_note .add_icon {
+  margin-top: -50px;
+  margin-right: -300px;
+  z-index: 5;
+  color: #35484e;
+}
+
+/* delte note */
+.note {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin: 15px 10px;
+  width: 25%;
+  border: 2px solid #9dcedb;
+  border-radius: 10px;
+  background-color: #9dcedb;
+}
